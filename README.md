@@ -13,10 +13,12 @@ If you are using JUNO robot with serial number MA020015, please run these comman
   3. Use this command to run the program: $ ./fypsh
 
 If you are using other robot, please follow these steps:
-  1. Create a package, can follow the tutorials: http://wiki.ros.org/ROS/Tutorials/CreatingPackage 
+  1. Create a package, can follow the tutorials: http://wiki.ros.org/ROS/Tutorials/CreatingPackage *name the package as "fyp", so that you no need to change the path*
   2. Download all files into the package folder except for "Student_Staff Classification.ipynb" & "student_staff.csv"
   3. Intall requirement.txt: $ pip install -r requirements.txt
   4. Ensure that all the files in the package folder are executable $ chmod +x <filename>.py
-  5. 
+  5. In first terminal, run: $ roscore
+  6. In another new termial, go to the directory that contain the fyp.sh file: $ roscd fyp
+  7. Use this command to run the program: $ ./fypsh
   
 
