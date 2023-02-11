@@ -14,7 +14,7 @@ If you are using JUNO robot with serial number MA020015, please run these comman
 
 If you are using other robot, please follow these steps:
   1. Create a package, can follow the tutorials: http://wiki.ros.org/ROS/Tutorials/CreatingPackage 
-  2. Download all files into the package folder except for "student_model" & "student_staff.csv"
+  2. Download all files into the package folder except for "Student_Staff Classification.ipynb" & "student_staff.csv"
   3. Intall requirement.txt: $ pip install -r requirements.txt
   4. Ensure that all the files in the package folder are executable $ chmod +x <filename>.py
   5. 
