@@ -8,5 +8,10 @@ To enhance on the RNN text classification model namely "student_model":
   4. To run the speech processing module with new model, just the old "student_model" to a new "student_model" will do.
   
 If you are using JUNO robot with serial number MA020015, please run these command to run the program:
-  1. In first terminal, run:
-  $ roscore
+  1. In first terminal, run: $ roscore
+  2. In another new termial, go to the directory that contain the fyp.sh file: $ roscd fyp
+  3. Use this command to run the program: $ ./fypsh
+
+If you are using other robot, please follow these steps:
+  1. Download all files except for "student_model" & "student_staff.csv":
+
